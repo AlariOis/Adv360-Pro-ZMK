@@ -63,7 +63,7 @@
  &trans         &trans          &trans      &trans    &trans    &trans               &none      &none  &trans    &trans    &trans   &trans      &trans         &trans
  &trans         &trans          &trans      &trans    &trans    &trans              &trans  &kp LCTRL  &trans                       &trans   &kp RCTRL         &trans       &trans  &trans  &trans  &trans  &trans  &trans
  &trans         &trans          &trans      &trans    &trans    &trans               &none      &none  &trans     &none     &none   &trans       &none          &none       &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &mt LALT LEFT  &mt LALT RIGHT  &mt LGUI L  &kp CAPS  &kp LGUI            &kp LALT     &trans  &trans  &kp LALT  &kp LGUI   &trans  &mt LGUI L  &mt LALT DOWN  &mt LALT UP  &trans
+ &trans  &mt LALT LEFT  &mt LALT RIGHT  &mt LGUI N  &kp CAPS  &kp LGUI            &kp LALT     &trans  &trans  &kp LALT  &kp LGUI   &trans  &mt LGUI N  &mt LALT DOWN  &mt LALT UP  &trans
             >;
         };
 
