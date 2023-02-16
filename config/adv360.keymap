@@ -59,11 +59,11 @@
 
         layer_fn {
             bindings = <
- &kp F1         &kp F2          &kp F3      &kp F4    &kp F5             &kp F6                     &tog 1       &mo 3      &kp F7            &kp F8        &kp F9        &kp F10              &kp F11        &kp F12
- &trans         &trans          &trans      &trans    &trans             &trans                      &none       &none      &trans            &trans        &trans         &trans               &trans         &trans
- &trans         &trans          &trans      &trans    &trans             &trans                     &trans  &kp K_MUTE      &trans                                    &kp PAGE_UP  &kp C_AL_CALCULATOR         &trans       &trans  &trans  &trans  &trans  &trans  &trans
- &trans         &trans          &trans      &trans    &trans             &trans                      &none       &none  &kp INSERT             &none         &none  &kp PAGE_DOWN                &none          &none       &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &mt LALT LEFT  &mt LALT RIGHT  &mt LGUI N  &kp CAPS  &kp K_VOLUME_DOWN            &kp K_VOLUME_UP      &trans     &kp END  &kp K_CALCULATOR  &kp C_AL_CAL         &trans           &mt LGUI N  &mt LALT DOWN  &mt LALT UP  &trans
+ &kp F1         &kp F2          &kp F3      &kp F4    &kp F5  &kp F6            &tog 1   &mo 3      &kp F7  &kp F8  &kp F9        &kp F10     &kp F11        &kp F12
+ &trans         &trans          &trans      &trans    &trans  &trans             &none   &none      &trans  &trans  &trans         &trans      &trans         &trans
+ &trans         &trans          &trans      &trans    &trans  &trans            &trans  &trans      &trans                    &kp PAGE_UP      &trans         &trans       &trans  &trans  &trans  &trans  &trans  &trans
+ &trans         &trans          &trans      &trans    &trans  &trans             &none   &none  &kp INSERT   &none   &none  &kp PAGE_DOWN       &none          &none       &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &mt LALT LEFT  &mt LALT RIGHT  &mt LGUI N  &kp CAPS  &trans            &trans  &trans     &kp END  &trans  &trans         &trans  &mt LGUI N  &mt LALT DOWN  &mt LALT UP  &trans
             >;
         };
 
