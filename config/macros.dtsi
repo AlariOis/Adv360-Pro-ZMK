@@ -88,3 +88,51 @@ label = "macro_alt_q";
 #binding-cells = <0>;
 bindings = <&kp LA(Q)>;
 };
+macro_gui_left: macro_gui_left{
+compatible = "zmk,behavior-macro";
+label = "macro_gui_left";
+#binding-cells = <0>;
+bindings = <&kp LG(LEFT)>;
+};
+macro_gui_right: macro_gui_right{
+compatible = "zmk,behavior-macro";
+label = "macro_gui_right";
+#binding-cells = <0>;
+bindings = <&kp LG(RIGHT)>;
+};
+macro_gui_up: macro_gui_up{
+compatible = "zmk,behavior-macro";
+label = "macro_gui_up";
+#binding-cells = <0>;
+bindings = <&kp LG(UP)>;
+};
+macro_gui_down: macro_gui_down{
+compatible = "zmk,behavior-macro";
+label = "macro_gui_down";
+#binding-cells = <0>;
+bindings = <&kp LG(DOWN)>;
+};
+macro_new_desktop: macro_new_desktop{
+compatible = "zmk,behavior-macro";
+label = "macro_new_desktop";
+#binding-cells = <0>;
+bindings = <&kp LG(LC(D))>;
+};
+macro_close_desktop: macro_close_desktop{
+compatible = "zmk,behavior-macro";
+label = "macro_close_desktop";
+#binding-cells = <0>;
+bindings = <&kp LG(LC(F4))>;
+};
+macro_desktop_left: macro_desktop_left{
+compatible = "zmk,behavior-macro";
+label = "macro_desktop_left";
+#binding-cells = <0>;
+bindings = <&kp LG(LC(LEFT))>;
+};
+macro_desktop_right: macro_desktop_right{
+compatible = "zmk,behavior-macro";
+label = "macro_desktop_right";
+#binding-cells = <0>;
+bindings = <&kp LG(LC(RIGHT))>;
+};
