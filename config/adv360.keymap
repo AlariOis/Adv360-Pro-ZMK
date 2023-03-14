@@ -59,11 +59,11 @@
 
         layer_fn {
             bindings = <
- &kp F1             &kp F2            &kp F3          &kp F4               &kp F5                &kp F6                     &tog 1   &mo 3     &kp F7  &kp F8  &kp F9  &kp F10     &kp F11        &kp F12
- &trans       &macro_alt_q  &macro_alt_s_tab  &macro_alt_tab  &macro_desktop_left  &macro_desktop_right              &macro_gui_up  &trans  &kp PG_UP  &trans  &trans   &trans      &trans         &trans
- &trans  &macro_select_all          &kp HOME        &kp BSPC              &kp DEL               &kp END            &macro_gui_down  &trans     &trans                   &trans      &trans         &trans           &kp PG_DN                &trans  &trans  &trans  &trans  &trans
- &trans        &macro_undo        &macro_cut     &macro_copy         &macro_paste                &trans                      &none   &none     &trans   &none   &none   &trans       &none          &none  &macro_new_desktop  &macro_close_desktop  &trans  &trans  &trans  &trans
- &trans    &macro_gui_left  &macro_gui_right      &mt LGUI N             &kp CAPS                &trans                     &trans  &trans     &trans  &trans  &trans   &trans  &mt LGUI N  &mt LALT DOWN         &mt LALT UP                &trans
+                &kp F1             &kp F2            &kp F3          &kp F4               &kp F5                &kp F6                     &tog 1   &mo 3     &kp F7  &kp F8  &kp F9  &kp F10     &kp F11        &kp F12
+                &trans       &macro_alt_q  &macro_alt_s_tab  &macro_alt_tab  &macro_desktop_left  &macro_desktop_right              &macro_gui_up  &trans  &kp PG_UP  &trans  &trans   &trans      &trans         &trans
+ &macro_ctrl_shift_del  &macro_select_all          &kp HOME        &kp BSPC              &kp DEL               &kp END            &macro_gui_down  &trans     &trans                   &trans      &trans         &trans           &kp PG_DN                &trans  &trans  &trans  &trans  &trans
+                &trans        &macro_undo        &macro_cut     &macro_copy         &macro_paste                &trans                      &none   &none     &trans   &none   &none   &trans       &none          &none  &macro_new_desktop  &macro_close_desktop  &trans  &trans  &trans  &trans
+                &trans    &macro_gui_left  &macro_gui_right      &mt LGUI N             &kp CAPS                &trans                     &trans  &trans     &trans  &trans  &trans   &trans  &mt LGUI N  &mt LALT DOWN         &mt LALT UP                &trans
             >;
         };
 
