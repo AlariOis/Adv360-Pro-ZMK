@@ -59,7 +59,7 @@
 
         layer_fn {
             bindings = <
-                &kp F1             &kp F2            &kp F3          &kp F4               &kp F5                &kp F6                     &tog 1   &mo 3     &kp F7  &kp F8  &kp F9  &kp F10     &kp F11        &kp F12
+                &kp F1             &kp F2            &kp F3          &kp F4               &kp F5                &kp F6                     &tog 4   &mo 3     &kp F7  &kp F8  &kp F9  &kp F10     &kp F11        &kp F12
                 &trans       &macro_alt_q  &macro_alt_s_tab  &macro_alt_tab  &macro_desktop_left  &macro_desktop_right              &macro_gui_up  &trans  &kp PG_UP  &trans  &trans   &trans      &trans         &trans
  &macro_ctrl_shift_del  &macro_select_all          &kp HOME        &kp BSPC              &kp DEL               &kp END            &macro_gui_down  &trans     &trans                   &trans      &trans         &trans           &kp PG_DN                &trans  &trans  &trans  &trans  &trans
                 &trans        &macro_undo        &macro_cut     &macro_copy         &macro_paste                &trans                      &none   &none     &trans   &none   &none   &trans       &none          &none  &macro_new_desktop  &macro_close_desktop  &trans  &trans  &trans  &trans
@@ -74,6 +74,46 @@
   &none         &none         &none         &none         &none            &none            &rgb_ug RGB_MEFS_CMD 5   &bt BT_CLR         &none                                   &bt BT_CLR    &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5   &none   &none   &none   &none   &none   &none
   &none         &none         &none         &none         &none            &none                             &none        &none         &none         &none            &none         &none         &none                   &none   &none   &none   &none   &none   &none   &none
   &none         &none         &none    &bl BL_INC    &bl BL_DEC  &rgb_ug RGB_TOG                        &bl BL_TOG        &none         &none    &bl BL_TOG  &rgb_ug RGB_TOG    &bl BL_INC    &bl BL_DEC                   &none   &none   &none
+            >;
+        };
+
+        layer_SH_LEFT {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &tog 1  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans   &mo 5            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_SH_RIGHT {
+            bindings = <
+  &kp MINUS         &kp N0    &kp N9     &kp N8    &kp N7  &kp N6                          &tog 1  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+   &kp BSLH          &kp P     &kp O      &kp I     &kp U   &kp Y            &kp NON_US_BACKSLASH  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+    &kp SQT  &kp SEMICOLON     &kp L      &kp K     &kp J   &kp H                       &kp EQUAL  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &kp RSHIFT       &kp FSLH   &kp DOT  &kp COMMA     &kp M   &kp N                          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &kp LCTRL         &kp UP  &kp DOWN   &kp RBKT  &kp LBKT  &trans                          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_SH_RIGHT_CTRL {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_SH_RIGHT_ALT {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
