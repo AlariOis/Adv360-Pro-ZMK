@@ -79,7 +79,7 @@
 
         layer_SH_LEFT {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &tog 1  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &tog 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -89,7 +89,7 @@
 
         layer_SH_RIGHT {
             bindings = <
-  &kp MINUS         &kp N0    &kp N9     &kp N8    &kp N7  &kp N6                          &tog 1  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &kp MINUS         &kp N0    &kp N9     &kp N8    &kp N7  &kp N6                          &tog 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans
    &kp BSLH          &kp P     &kp O      &kp I     &kp U   &kp Y            &kp NON_US_BACKSLASH  &trans  &trans  &trans  &trans  &trans  &trans  &trans
     &kp SQT  &kp SEMICOLON     &kp L      &kp K     &kp J   &kp H                       &kp EQUAL  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &kp RSHIFT       &kp FSLH   &kp DOT  &kp COMMA     &kp M   &kp N                          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
