@@ -136,9 +136,9 @@ label = "macro_desktop_right";
 #binding-cells = <0>;
 bindings = <&kp LG(LC(RIGHT))>;
 };
-macro_ctrl_shift_del: macro_ctrl_shift_del{
+macro_ctrl_shift_esc: macro_ctrl_shift_esc{
 compatible = "zmk,behavior-macro";
-label = "macro_ctrl_shift_del";
+label = "macro_ctrl_shift_esc";
 #binding-cells = <0>;
-bindings = <&kp LC(LS(DEL))>;
+bindings = <&kp LC(LS(ESC))>;
 };
