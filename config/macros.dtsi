@@ -148,15 +148,45 @@ label = "macro_shift_sqt";
 #binding-cells = <0>;
 bindings = <&kp LS(SQT)>;
 };
-macro_rc_sqt: macro_rc_sqt{
+
+macro_shift_w: macro_shift_w{
 compatible = "zmk,behavior-macro";
-label = "macro_rc_sqt";
+label = "macro_shift_w";
 #binding-cells = <0>;
-bindings = <&kp RC(SQT)>;
+bindings = <&kp LS(W)>;
 };
+
 macro_sqt: macro_sqt{
 compatible = "zmk,behavior-macro";
 label = "macro_sqt";
 #binding-cells = <0>;
 bindings = <&kp SQT>;
+};
+
+macro_lbkt: macro_lbkt{
+compatible = "zmk,behavior-macro";
+label = "macro_lbkt";
+#binding-cells = <0>;
+bindings = <&kp LBKT>;
+};
+
+macro_rbkt: macro_rbkt{
+compatible = "zmk,behavior-macro";
+label = "macro_rbkt";
+#binding-cells = <0>;
+bindings = <&kp RBKT>;
+};
+
+macro_non_us_backslash: macro_non_us_backslash{
+compatible = "zmk,behavior-macro";
+label = "macro_non_us_backslash";
+#binding-cells = <0>;
+bindings = <&kp NON_US_BACKSLASH>;
+};
+
+macro_equal: macro_equal{
+compatible = "zmk,behavior-macro";
+label = "macro_equal";
+#binding-cells = <0>;
+bindings = <&kp EQUAL>;
 };
