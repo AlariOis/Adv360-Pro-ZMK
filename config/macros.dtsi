@@ -142,3 +142,9 @@ label = "macro_ctrl_shift_esc";
 #binding-cells = <0>;
 bindings = <&kp LC(LS(ESC))>;
 };
+macro_shift_sqt: macro_shift_sqt{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_sqt";
+#binding-cells = <0>;
+bindings = <&kp LS(SQT)>;
+};
