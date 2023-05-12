@@ -154,3 +154,9 @@ label = "macro_rc_sqt";
 #binding-cells = <0>;
 bindings = <&kp RC(SQT)>;
 };
+macro_sqt: macro_sqt{
+compatible = "zmk,behavior-macro";
+label = "macro_sqt";
+#binding-cells = <0>;
+bindings = <&kp SQT>;
+};
