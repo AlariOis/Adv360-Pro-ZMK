@@ -1,4 +1,3 @@
-
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
@@ -36,22 +35,22 @@ label = "macro_kinesis";
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
 macro_zmk: macro_zmk{
-label = "macro_zmk";
 compatible = "zmk,behavior-macro";
+label = "macro_zmk";
 #binding-cells = <0>;
-bindings = <&macro_press &kp LSHFT> , <&macro_tap &kp Z &kp M &kp K> , <&macro_release &kp LSHFT> ;
+bindings = <&macro_press &kp LSHFT>, <&macro_tap &kp Z &kp M &kp K>, <&macro_release &kp LSHFT>;
 };
 macro_zmk_rel: macro_zmk_rel{
-label = "macro_zmk_rel";
 compatible = "zmk,behavior-macro";
+label = "macro_zmk_rel";
 #binding-cells = <0>;
-bindings = <&macro_release &kp LSHFT> , <&macro_tap &kp Z &kp M &kp K> , <&macro_press &kp LSHFT> ;
+bindings = <&macro_release &kp LSHFT>, <&macro_tap &kp Z &kp M &kp K>, <&macro_press &kp LSHFT>;
 };
 macro_zmk_rel_only: macro_zmk_rel_only{
-label = "macro_zmk_rel_only";
 compatible = "zmk,behavior-macro";
+label = "macro_zmk_rel_only";
 #binding-cells = <0>;
-bindings = <&macro_release &kp LSHFT> , <&macro_tap &kp Z &kp M &kp K> ;
+bindings = <&macro_release &kp LSHFT>, <&macro_tap &kp Z &kp M &kp K>;
 };
 macro_a: macro_a{
 compatible = "zmk,behavior-macro";
