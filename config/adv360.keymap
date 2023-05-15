@@ -60,6 +60,27 @@
                 bindings = <&kp BSLH>, <&kp PIPE>;
                 mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+    fslh_caret: fslh_caret {
+                compatible = "zmk,behavior-mod-morph";
+                label = "fslh_caret";
+                #binding-cells = <0>;
+                bindings = <&kp FSLH>, <&kp CARET>;
+                mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+    dollar_grave: dollar_grave {
+                compatible = "zmk,behavior-mod-morph";
+                label = "dollar_grave";
+                #binding-cells = <0>;
+                bindings = <&kp DOLLAR>, <&kp GRAVE>;
+                mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+    semi_hash: semi_hash {
+                compatible = "zmk,behavior-mod-morph";
+                label = "semi_hash";
+                #binding-cells = <0>;
+                bindings = <&kp SEMI>, <&kp HASH>;
+                mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
   };
 
     keymap {
@@ -69,10 +90,10 @@
         default_layer {
             bindings = <
       &kp POUND  &kp PERCENT    &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp PLUS  &kp UNDERSCORE               &tog 1                                                                         &mo 4  &kp UNDERSCORE  &kp ASTRK  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp EQUAL      &kp EXCL
-        &kp TAB    &comma_tilde  &double_quotes_less_than               &sqt_greater_than     &kp P           &kp Y            &kp COLON                                                                      &kp SEMI           &kp F      &kp G                  &kp C            &kp R      &kp L      &bslh_pipe
-        &kp ESC        &kp A             &kp O                 &kp E     &kp U           &kp I             &kp FSLH  &macro_lctrl_mo_1     &mo 3   &none   &none     &mo 3  &macro_rctrl_mo_1  &kp DOLLAR           &kp D      &kp H                  &kp T            &kp N      &kp S  &macro_minus
+        &kp TAB    &comma_tilde  &double_quotes_less_than               &sqt_greater_than     &kp P           &kp Y            &kp COLON                                                                      &semi_hash           &kp F      &kp G                  &kp C            &kp R      &kp L      &bslh_pipe
+        &kp ESC        &kp A             &kp O                 &kp E     &kp U           &kp I             &fslh_caret  &macro_lctrl_mo_1     &mo 3   &none   &none     &mo 3  &macro_rctrl_mo_1  &dollar_grave           &kp D      &kp H                  &kp T            &kp N      &kp S  &macro_minus
  &kp LEFT_SHIFT      &kp DOT             &kp Q                 &kp J     &kp K           &kp X                &none              &none  &macro_lalt_mo_1   &none   &none  &macro_ralt_mo_1      &none       &none           &kp B      &kp M                  &kp W            &kp V      &kp Z     &kp RSHFT
-    &key_repeat     &kp LEFT         &kp RIGHT            &kp DOLLAR  &kp SEMI                            &kp SPACE          &kp ENTER  &macro_lgui_mo_1                 &macro_rgui_mo_1   &kp BSPC       &sl 5                  &kp COLON               &kp FSLH         &kp DOWN     &kp UP   &key_repeat
+    &key_repeat     &kp LEFT         &kp RIGHT            &dollar_grave  &semi_hash                            &kp SPACE          &kp ENTER  &macro_lgui_mo_1                 &macro_rgui_mo_1   &kp BSPC       &sl 5                  &kp COLON               &kp FSLH         &kp DOWN     &kp UP   &key_repeat
             >;
         };
 
