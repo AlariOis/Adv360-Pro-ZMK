@@ -177,11 +177,11 @@
 
         layer_shift {
             bindings = <
- &trans      &trans  &trans  &trans         &trans       &trans            &tog 1                                                        &mo 4          &trans  &trans           &trans         &trans   &trans   &trans
- &trans      &trans  &trans  &trans         &trans       &trans            &macro_question                                               &macro_hash    &trans  &trans           &trans         &trans   &trans   &trans
- &trans      &trans  &trans  &trans         &trans       &trans            &macro_caret  &trans  &trans   &none   &none  &trans  &trans  &macro_grave   &trans  &trans           &trans         &trans   &trans   &trans
- &trans      &trans  &trans  &trans         &trans       &trans            &none         &none   &trans   &none   &none  &trans  &none   &none          &trans  &trans           &trans         &trans   &trans   &trans
- &caps_word  &trans  &trans  &macro_grave   &macro_hash                    &trans        &trans  &trans                  &trans  &trans  &trans                 &macro_question  &macro_caret   &trans   &trans   &caps_word
+ &trans      &trans  &trans  &trans               &trans       &trans            &tog 1                                                        &mo 4                &trans  &trans           &trans         &trans   &trans   &trans
+ &trans      &trans  &trans  &trans               &trans       &trans            &macro_question                                               &macro_hash          &trans  &trans           &trans         &trans   &trans   &trans
+ &trans      &trans  &trans  &trans               &trans       &trans            &macro_caret  &trans  &trans   &none   &none  &trans  &trans  &macro_grave_force   &trans  &trans           &trans         &trans   &trans   &trans
+ &trans      &trans  &trans  &trans               &trans       &trans            &none         &none   &trans   &none   &none  &trans  &none   &none                &trans  &trans           &trans         &trans   &trans   &trans
+ &caps_word  &trans  &trans  &macro_grave_force   &macro_hash                    &trans        &trans  &trans                  &trans  &trans  &trans                       &macro_question  &macro_caret   &trans   &trans   &caps_word
             >;
         };
     };
