@@ -5,7 +5,7 @@ let res = '';
 function add_macro(name, binding) {
     res += `macro_${name}: macro_${name}{\n`;
     res += `compatible = "zmk,behavior-macro";\n`;
-    res += `label = "macro_sqt";\n`;
+    res += `label = "macro_${name}";\n`;
     res += `#binding-cells = <0>;\n`;
     res += `bindings = <${binding}>;\n`;
     res += `};\n`;
@@ -93,6 +93,12 @@ label = "macro_zmk_rel";
 compatible = "zmk,behavior-macro";
 #binding-cells = <0>;
 bindings = <&macro_release &kp LSHFT> , <&macro_tap &kp Z &kp M &kp K> , <&macro_press &kp LSHFT> ;
+};
+macro_zmk_rel_only: macro_zmk_rel_only{
+label = "macro_zmk_rel_only";
+compatible = "zmk,behavior-macro";
+#binding-cells = <0>;
+bindings = <&macro_release &kp LSHFT> , <&macro_tap &kp Z &kp M &kp K> ;
 };
 `;
 
