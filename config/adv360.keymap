@@ -121,7 +121,7 @@
         &kp TAB    &comma_tilde  &double_quotes_less_than               &sqt_greater_than     &kp P           &kp Y            &colon_question                                                                      &semi_hash           &kp F      &kp G                  &kp C            &kp R      &kp L      &bslh_pipe
         &kp ESC        &kp A             &kp O                 &kp E     &kp U           &kp I             &fslh_caret  &macro_lctrl_mo_1     &mo 3   &none   &none     &mo 3  &macro_rctrl_mo_1  &dollar_grave           &kp D      &kp H                  &kp T            &kp N      &kp S  &macro_minus
  &kp LEFT_SHIFT      &dot_ampersand             &kp Q                 &kp J     &kp K           &kp X                &none              &none  &macro_lalt_mo_1   &none   &none  &macro_ralt_mo_1      &none       &none           &kp B      &kp M                  &kp W            &kp V      &kp Z     &kp RSHFT
-    &macro_minus     &kp LEFT         &kp RIGHT            &dollar_grave  &semi_hash                            &kp SPACE          &kp ENTER  &macro_lgui_mo_1                 &macro_rgui_mo_1   &kp BSPC       &sl 5                  &colon_question               &fslh_caret         &kp DOWN     &kp UP   &key_repeat
+    &macro_minus     &macro_fslh        &macro_caret            &dollar_grave  &semi_hash                            &kp SPACE          &kp ENTER  &macro_lgui_mo_1                 &macro_rgui_mo_1   &kp BSPC       &sl 5                  &colon_question               &fslh_caret         &kp DOWN     &kp UP   &key_repeat
             >;
         };
 
