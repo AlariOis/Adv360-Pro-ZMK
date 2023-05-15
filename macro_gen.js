@@ -83,6 +83,28 @@ macro_kinesis: macro_kinesis {
 	#binding-cells = <0>;
 	bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
+
+zed_em_kay: zed_em_kay {
+    label = "ZM_zed_em_kay";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings
+        = <&macro_press &kp LSHFT>
+        , <&macro_tap &kp Z &kp M &kp K>
+        , <&macro_release &kp LSHFT>
+        ;
+};
+
+zed_em_kay_release: zed_em_kay_release {
+    label = "ZM_zed_em_kay_release";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings
+        = <&macro_release &kp LSHFT>
+        , <&macro_tap &kp Z &kp M &kp K>
+        , <&macro_press &kp LSHFT>
+        ;
+};
 `;
 
 keys.forEach(key => {
