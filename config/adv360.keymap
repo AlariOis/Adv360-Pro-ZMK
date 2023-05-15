@@ -18,7 +18,6 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
-
 / {
   behaviors {
     #include "macros.dtsi"
@@ -32,24 +31,14 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
-
 	mod_comma_tilde: mod_comma_tilde {
 			compatible = "zmk,behavior-mod-morph";
 			label = "mod_comma_tilde";
 			#binding-cells = <0>;
-			bindings = <&kp J>, <&kp C>;
+			bindings = <&kp C>, <&kp J>;
 			mods = <(MOD_LSFT|MOD_RSFT)>;
 		};
 	};
-	mod_j_c: mod_j_c {
-			compatible = "zmk,behavior-mod-morph";
-			label = "mod_j_c";
-			#binding-cells = <0>;
-			bindings = <&kp J>, <&kp C>;
-			mods = <(MOD_LSFT|MOD_RSFT)>;
-		};
-	};
-
 
     keymap {
         compatible = "zmk,keymap";
@@ -59,7 +48,7 @@
          &kp POUND  &kp PERCENT    &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp PLUS  &kp UNDERSCORE               &tog 1                                                                 &mo 4  &kp UNDERSCORE  &kp ASTRK  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp EQUAL      &kp EXCL
  &kp DOUBLE_QUOTES    &mod_comma_tilde  &macro_shift_sqt               &kp SQT     &kp P           &kp Y            &kp COLON                                                              &kp SEMI           &kp F      &kp G                  &kp C            &kp R      &kp L      &kp BSLH
            &kp ESC        &kp A             &kp O                 &kp E     &kp U           &kp I             &kp FSLH  &kp LCTRL     &mo 3   &none   &none     &mo 3  &kp RCTRL  &kp DOLLAR           &kp D      &kp H                  &kp T            &kp N      &kp S  &macro_minus
-             &sl 5      &kp DOT             &kp Q                 &mod_j_c     &kp K           &kp X                &none      &none  &kp LALT   &none   &none  &kp RALT      &none       &none           &kp B      &kp M                  &kp W            &kp V      &kp Z     &kp RSHFT
+             &sl 5      &kp DOT             &kp Q                 &kp J     &kp K           &kp X                &none      &none  &kp LALT   &none   &none  &kp RALT      &none       &none           &kp B      &kp M                  &kp W            &kp V      &kp Z     &kp RSHFT
        &key_repeat     &kp LEFT         &kp RIGHT            &kp DOLLAR  &kp SEMI                            &kp SPACE  &kp ENTER  &kp LGUI                  &kp RGUI   &kp BSPC       &sl 6                  &kp COLON               &kp FSLH         &kp DOWN     &kp UP         &mo 6
             >;
         };
