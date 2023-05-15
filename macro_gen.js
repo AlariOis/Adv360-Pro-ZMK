@@ -32,18 +32,28 @@ for (i = 0; i < 10; i++) {
 }
 
 keys.push('SQT');
-keys.push('GRAVE');
 keys.push('LBKT');
 keys.push('RBKT');
 keys.push('EQUAL');
 keys.push('COMMA');
 keys.push('DOT');
-keys.push('MINUS');
 keys.push('BSLH');
 keys.push('FSLH');
+
 keys.push('SEMI');
 
+keys.push('DOLLAR');
 keys.push('GRAVE');
+keys.push('SEMI');
+keys.push('HASH');
+keys.push('MINUS');
+keys.push('UNDERSCORE');
+keys.push('COLON');
+keys.push('QUESTION');
+keys.push('LESS_THAN');
+keys.push('GREATER_THAN');
+keys.push('FSLH');
+keys.push('CARET');
 
 res += `
 macro_quotes: macro_quotes{
@@ -81,6 +91,12 @@ compatible = "zmk,behavior-macro";
 label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
+};
+macro_ctrl_f11: macro_ctrl_f11{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_f11";
+#binding-cells = <0>;
+bindings = <&kp LC(F11)>;
 };
 macro_zmk: macro_zmk{
 label = "macro_zmk";

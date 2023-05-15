@@ -35,6 +35,12 @@ label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
+macro_ctrl_f11: macro_ctrl_f11{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_f11";
+#binding-cells = <0>;
+bindings = <&kp LC(F11)>;
+};
 macro_zmk: macro_zmk{
 label = "macro_zmk";
 compatible = "zmk,behavior-macro";
@@ -557,18 +563,6 @@ label = "macro_shift_sqt";
 #binding-cells = <0>;
 bindings = <&kp LS(SQT)>;
 };
-macro_grave: macro_grave{
-compatible = "zmk,behavior-macro";
-label = "macro_grave";
-#binding-cells = <0>;
-bindings = <&kp GRAVE>;
-};
-macro_shift_grave: macro_shift_grave{
-compatible = "zmk,behavior-macro";
-label = "macro_shift_grave";
-#binding-cells = <0>;
-bindings = <&kp LS(GRAVE)>;
-};
 macro_lbkt: macro_lbkt{
 compatible = "zmk,behavior-macro";
 label = "macro_lbkt";
@@ -629,18 +623,6 @@ label = "macro_shift_dot";
 #binding-cells = <0>;
 bindings = <&kp LS(DOT)>;
 };
-macro_minus: macro_minus{
-compatible = "zmk,behavior-macro";
-label = "macro_minus";
-#binding-cells = <0>;
-bindings = <&kp MINUS>;
-};
-macro_shift_minus: macro_shift_minus{
-compatible = "zmk,behavior-macro";
-label = "macro_shift_minus";
-#binding-cells = <0>;
-bindings = <&kp LS(MINUS)>;
-};
 macro_bslh: macro_bslh{
 compatible = "zmk,behavior-macro";
 label = "macro_bslh";
@@ -677,6 +659,18 @@ label = "macro_shift_semi";
 #binding-cells = <0>;
 bindings = <&kp LS(SEMI)>;
 };
+macro_dollar: macro_dollar{
+compatible = "zmk,behavior-macro";
+label = "macro_dollar";
+#binding-cells = <0>;
+bindings = <&kp DOLLAR>;
+};
+macro_shift_dollar: macro_shift_dollar{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_dollar";
+#binding-cells = <0>;
+bindings = <&kp LS(DOLLAR)>;
+};
 macro_grave: macro_grave{
 compatible = "zmk,behavior-macro";
 label = "macro_grave";
@@ -688,4 +682,124 @@ compatible = "zmk,behavior-macro";
 label = "macro_shift_grave";
 #binding-cells = <0>;
 bindings = <&kp LS(GRAVE)>;
+};
+macro_semi: macro_semi{
+compatible = "zmk,behavior-macro";
+label = "macro_semi";
+#binding-cells = <0>;
+bindings = <&kp SEMI>;
+};
+macro_shift_semi: macro_shift_semi{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_semi";
+#binding-cells = <0>;
+bindings = <&kp LS(SEMI)>;
+};
+macro_hash: macro_hash{
+compatible = "zmk,behavior-macro";
+label = "macro_hash";
+#binding-cells = <0>;
+bindings = <&kp HASH>;
+};
+macro_shift_hash: macro_shift_hash{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_hash";
+#binding-cells = <0>;
+bindings = <&kp LS(HASH)>;
+};
+macro_minus: macro_minus{
+compatible = "zmk,behavior-macro";
+label = "macro_minus";
+#binding-cells = <0>;
+bindings = <&kp MINUS>;
+};
+macro_shift_minus: macro_shift_minus{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_minus";
+#binding-cells = <0>;
+bindings = <&kp LS(MINUS)>;
+};
+macro_underscore: macro_underscore{
+compatible = "zmk,behavior-macro";
+label = "macro_underscore";
+#binding-cells = <0>;
+bindings = <&kp UNDERSCORE>;
+};
+macro_shift_underscore: macro_shift_underscore{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_underscore";
+#binding-cells = <0>;
+bindings = <&kp LS(UNDERSCORE)>;
+};
+macro_colon: macro_colon{
+compatible = "zmk,behavior-macro";
+label = "macro_colon";
+#binding-cells = <0>;
+bindings = <&kp COLON>;
+};
+macro_shift_colon: macro_shift_colon{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_colon";
+#binding-cells = <0>;
+bindings = <&kp LS(COLON)>;
+};
+macro_question: macro_question{
+compatible = "zmk,behavior-macro";
+label = "macro_question";
+#binding-cells = <0>;
+bindings = <&kp QUESTION>;
+};
+macro_shift_question: macro_shift_question{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_question";
+#binding-cells = <0>;
+bindings = <&kp LS(QUESTION)>;
+};
+macro_less_than: macro_less_than{
+compatible = "zmk,behavior-macro";
+label = "macro_less_than";
+#binding-cells = <0>;
+bindings = <&kp LESS_THAN>;
+};
+macro_shift_less_than: macro_shift_less_than{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_less_than";
+#binding-cells = <0>;
+bindings = <&kp LS(LESS_THAN)>;
+};
+macro_greater_than: macro_greater_than{
+compatible = "zmk,behavior-macro";
+label = "macro_greater_than";
+#binding-cells = <0>;
+bindings = <&kp GREATER_THAN>;
+};
+macro_shift_greater_than: macro_shift_greater_than{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_greater_than";
+#binding-cells = <0>;
+bindings = <&kp LS(GREATER_THAN)>;
+};
+macro_fslh: macro_fslh{
+compatible = "zmk,behavior-macro";
+label = "macro_fslh";
+#binding-cells = <0>;
+bindings = <&kp FSLH>;
+};
+macro_shift_fslh: macro_shift_fslh{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_fslh";
+#binding-cells = <0>;
+bindings = <&kp LS(FSLH)>;
+};
+macro_caret: macro_caret{
+compatible = "zmk,behavior-macro";
+label = "macro_caret";
+#binding-cells = <0>;
+bindings = <&kp CARET>;
+};
+macro_shift_caret: macro_shift_caret{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_caret";
+#binding-cells = <0>;
+bindings = <&kp LS(CARET)>;
 };
