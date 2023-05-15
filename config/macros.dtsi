@@ -63,6 +63,56 @@ bindings
     , <&macro_pause_for_release>
     , <&macro_release &mo 1 &kp LCTRL>;
 };
+macro_rctrl_mo_1: macro_rctrl_mo_1{
+label = "macro_rctrl_mo_1";
+compatible = "zmk,behavior-macro";
+#binding-cells = <0>;
+wait-ms = <0>;
+bindings
+    = <&macro_press &mo 1 &kp RCTRL>
+    , <&macro_pause_for_release>
+    , <&macro_release &mo 1 &kp RCTRL>;
+};
+macro_lalt_mo_1: macro_lalt_mo_1{
+label = "macro_lalt_mo_1";
+compatible = "zmk,behavior-macro";
+#binding-cells = <0>;
+wait-ms = <0>;
+bindings
+    = <&macro_press &mo 1 &kp LALT>
+    , <&macro_pause_for_release>
+    , <&macro_release &mo 1 &kp LALT>;
+};
+macro_ralt_mo_1: macro_ralt_mo_1{
+label = "macro_ralt_mo_1";
+compatible = "zmk,behavior-macro";
+#binding-cells = <0>;
+wait-ms = <0>;
+bindings
+    = <&macro_press &mo 1 &kp RALT>
+    , <&macro_pause_for_release>
+    , <&macro_release &mo 1 &kp RALT>;
+};
+macro_lgui_mo_1: macro_lgui_mo_1{
+label = "macro_lgui_mo_1";
+compatible = "zmk,behavior-macro";
+#binding-cells = <0>;
+wait-ms = <0>;
+bindings
+    = <&macro_press &mo 1 &kp LGUI>
+    , <&macro_pause_for_release>
+    , <&macro_release &mo 1 &kp LGUI>;
+};
+macro_rgui_mo_1: macro_rgui_mo_1{
+label = "macro_rgui_mo_1";
+compatible = "zmk,behavior-macro";
+#binding-cells = <0>;
+wait-ms = <0>;
+bindings
+    = <&macro_press &mo 1 &kp RGUI>
+    , <&macro_pause_for_release>
+    , <&macro_release &mo 1 &kp RGUI>;
+};
 macro_a: macro_a{
 compatible = "zmk,behavior-macro";
 label = "macro_a";
