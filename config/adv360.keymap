@@ -37,7 +37,7 @@
 			compatible = "zmk,behavior-mod-morph";
 			label = "mod_comma_tilde";
 			#binding-cells = <0>;
-			bindings = <&kp COMMA>, <&kp TILDE>;
+			bindings = <&kp J>, <&kp C>;
 			mods = <(MOD_LSFT|MOD_RSFT)>;
 		};
 	};
