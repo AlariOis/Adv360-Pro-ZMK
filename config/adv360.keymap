@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-  &kp GRAVE    &kp N1     &kp N2     &kp N3                &kp N4  &kp N5                &tog 2                                                                          &mo 4  &kp N6    &kp N7     &kp N8    &kp N9    &kp N0       &kp MINUS
-    &kp TAB     &kp Q      &kp W      &kp E                 &kp R   &kp T            &macro_zmk                                                                          &mo 1   &kp Y     &kp U      &kp I     &kp O     &kp P        &kp BSLH
-    &kp ESC     &kp A      &kp S      &kp D                 &kp F   &kp G                 &none  &kp LCTRL     &mo 3   &none   &none     &mo 3  &kp RCTRL  &macro_zmk_rel_only   &kp H     &kp J      &kp K     &kp L  &kp SEMI      &macro_sqt
-      &mo 5     &kp Z      &kp X      &kp C                 &kp V   &kp B                 &none      &none  &kp LALT   &none   &none  &kp LALT      &none                &none   &kp N     &kp M  &kp COMMA   &kp DOT  &kp FSLH       &kp RSHFT
- &macro_sqt  &kp LEFT  &kp RIGHT  &kp EQUAL  &kp NON_US_BACKSLASH                     &kp SPACE  &kp ENTER  &kp LGUI                  &kp LGUI   &kp BSPC             &kp RALT          &kp LBKT   &kp RBKT  &kp DOWN    &kp UP  &macro_shift_w
+  &kp GRAVE    &kp N1     &kp N2     &kp N3                &kp N4  &kp N5                &tog 2                                                                          &mo 4  &kp N6    &kp N7     &kp N8    &kp N9    &kp N0   &kp MINUS
+    &kp TAB     &kp Q      &kp W      &kp E                 &kp R   &kp T            &macro_zmk                                                                          &mo 1   &kp Y     &kp U      &kp I     &kp O     &kp P    &kp BSLH
+    &kp ESC     &kp A      &kp S      &kp D                 &kp F   &kp G                 &none  &kp LCTRL     &mo 3   &none   &none     &mo 3  &kp RCTRL  &macro_zmk_rel_only   &kp H     &kp J      &kp K     &kp L  &kp SEMI  &macro_sqt
+      &mo 5     &kp Z      &kp X      &kp C                 &kp V   &kp B                 &none      &none  &kp LALT   &none   &none  &kp LALT      &none                &none   &kp N     &kp M  &kp COMMA   &kp DOT  &kp FSLH   &kp RSHFT
+ &macro_sqt  &kp LEFT  &kp RIGHT  &kp EQUAL  &kp NON_US_BACKSLASH                     &kp SPACE  &kp ENTER  &kp LGUI                  &kp LGUI   &kp BSPC                &mo 6          &kp LBKT   &kp RBKT  &kp DOWN    &kp UP       &mo 6
             >;
         };
 
@@ -94,6 +94,16 @@
      &trans  &macro_shift_a  &macro_shift_comma  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &macro_shift_sqt
      &trans          &trans        &macro_comma  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans
  &kp LSHIFT          &trans              &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans            &trans
+            >;
+        };
+
+        layer_hexpad {
+            bindings = <
+     &trans  &trans     &trans    &trans     &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans     &trans
+     &trans   &kp A      &kp B     &kp C      &kp D  &trans            &trans                                                  &trans  &trans  &kp N2  &kp N3  &kp N4  &kp N5     &trans
+     &trans   &kp E      &kp F    &kp N0     &kp N1  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N6  &kp N7  &kp N8  &kp N9     &trans
+ &kp LSHIFT  &trans  &kp COMMA    &trans     &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RSHFT
+     &trans  &trans     &trans  &kp PLUS  &kp MINUS                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans     &trans
             >;
         };
 
