@@ -9,15 +9,16 @@
     "fn",
     "mod",
     "shift",
-    "hexpad"
+    "hexpad",
+    "caps_word"
   ],
   "layers": [
     [
-        "&kp GRAVE",   "&kp N1",    "&kp N2",    "&kp N3",               "&kp N4", "&kp N5",               "&tog 2",                                                                                     "&mo 4", "&kp N6",   "&kp N7",    "&kp N8",   "&kp N9",   "&kp N0",  "&kp MINUS",
-          "&kp TAB",    "&kp Q",     "&kp W",     "&kp E",                "&kp R",  "&kp T",           "&macro_zmk",                                                                                     "&mo 1",  "&kp Y",    "&kp U",     "&kp I",    "&kp O",    "&kp P",   "&kp BSLH",
-          "&kp ESC",    "&kp A",     "&kp S",     "&kp D",                "&kp F",  "&kp G",                "&none", "&kp LCTRL",    "&mo 3",  "&none",  "&none",    "&mo 3", "&kp RCTRL", "&macro_zmk_rel_only",  "&kp H",    "&kp J",     "&kp K",    "&kp L", "&kp SEMI", "&macro_sqt",
-            "&mo 5",    "&kp Z",     "&kp X",     "&kp C",                "&kp V",  "&kp B",                "&none",     "&none", "&kp LALT",  "&none",  "&none", "&kp LALT",     "&none",               "&none",  "&kp N",    "&kp M", "&kp COMMA",  "&kp DOT", "&kp FSLH",  "&kp RSHFT",
-       "&macro_sqt", "&kp LEFT", "&kp RIGHT", "&kp EQUAL", "&kp NON_US_BACKSLASH",                      "&kp SPACE", "&kp ENTER", "&kp LGUI",                     "&kp LGUI",  "&kp BSPC",               "&mo 6",           "&kp LBKT",  "&kp RBKT", "&kp DOWN",   "&kp UP",      "&mo 6"
+               "&kp POUND", "&kp PERCENT",   "&kp LEFT_BRACE", "&kp LEFT_PARENTHESIS", "&kp PLUS", "&macro_minus",              "&tog 2",                                                                            "&mo 4", "&macro_minus", "&kp ASTRK", "&kp RIGHT_PARENTHESIS", "&kp RIGHT_BRACE", "&kp EXCL",    "&kp EQUAL",
+       "&kp DOUBLE_QUOTES",   "&kp COMMA", "&macro_shift_sqt",              "&kp SQT",    "&kp P",        "&kp Y",           "&kp COLON",                                                                         "&kp SEMI",        "&kp F",     "&kp G",                 "&kp C",           "&kp R",    "&kp L",     "&kp BSLH",
+                 "&kp ESC",       "&kp A",            "&kp O",                "&kp E",    "&kp U",        "&kp I",            "&kp FSLH", "&kp LCTRL",    "&mo 3",  "&none",  "&none",    "&mo 3", "&kp RCTRL", "&kp DOLLAR",        "&kp D",     "&kp H",                 "&kp T",           "&kp N",    "&kp S", "&macro_minus",
+                   "&sl 5",     "&kp DOT",            "&kp Q",                "&kp J",    "&kp K",        "&kp X",               "&none",     "&none", "&kp LALT",  "&none",  "&none", "&kp LALT",     "&none",      "&none",        "&kp B",     "&kp M",                 "&kp W",           "&kp V",    "&kp Z",    "&kp RSHFT",
+              "&macro_sqt",    "&kp LEFT",        "&kp RIGHT",           "&kp DOLLAR", "&kp SEMI",                           "&kp SPACE", "&kp ENTER", "&kp LGUI",                     "&kp LGUI",  "&kp BSPC",      "&sl 6",                 "&kp COLON",              "&kp FSLH",        "&kp DOWN",   "&kp UP",        "&mo 6"
     ], [
        "&kp EQUAL",    "&kp N1",   "&kp N2",   "&kp N3",    "&kp N4", "&kp N5",             "&tog 2",                                                                            "&mo 4", "&kp N6", "&kp N7",    "&kp N8",   "&kp N9",   "&kp N0", "&kp MINUS",
          "&kp TAB",     "&kp Q",    "&kp W",    "&kp E",     "&kp R",  "&kp T",              "&none",                                                                            "&mo 0",  "&kp Y",  "&kp U",     "&kp I",    "&kp O",    "&kp P",  "&kp BSLH",
@@ -46,7 +47,7 @@
            "&trans",         "&trans",             "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",
            "&trans",         "&trans",             "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",
            "&trans", "&macro_shift_a", "&macro_shift_comma", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&macro_shift_sqt",
-           "&trans",         "&trans",       "&macro_comma", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",
+       "&caps_word",         "&trans",       "&macro_comma", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",       "&caps_word",
        "&kp LSHIFT",         "&trans",             "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",           "&trans"
     ], [
            "&trans", "&trans",    "&trans",   "&trans",    "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",    "&trans",
@@ -54,6 +55,12 @@
            "&trans",  "&kp E",     "&kp F",   "&kp N0",    "&kp N1", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&kp N6", "&kp N7", "&kp N8", "&kp N9",    "&trans",
        "&kp LSHIFT", "&trans", "&kp COMMA",   "&trans",    "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&kp RSHFT",
            "&trans", "&trans",    "&trans", "&kp PLUS", "&kp MINUS",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",    "&trans"
+    ], [
+          "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",     "&trans",
+          "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",     "&trans",
+          "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",     "&trans",
+           "&none", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",      "&none",
+       "&kp LSHFT", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&kp RSHIFT"
     ]
   ]
 }
