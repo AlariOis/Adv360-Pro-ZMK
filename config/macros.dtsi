@@ -53,13 +53,14 @@ compatible = "zmk,behavior-macro";
 #binding-cells = <0>;
 bindings = <&macro_release &kp LSHFT> , <&macro_tap &kp Z &kp M &kp K> ;
 };
-macro_ctrl_mo_1: macro_ctrl_mo_1{
-label = "macro_ctrl_mo_1";
+macro_lctrl_mo_1: macro_lctrl_mo_1{
+label = "macro_lctrl_mo_1";
 compatible = "zmk,behavior-macro";
 #binding-cells = <0>;
-bindings = <&macro_press &mo 1 &kp LCTRL>
+bindings
+    = <&macro_press &mo 1 &kp LCTRL>
     , <&macro_pause_for_release>
-    , <&macro_release &mo 1 &kp CTRL>;;
+    , <&macro_release &mo 1 &kp CTRL>;
 };
 macro_a: macro_a{
 compatible = "zmk,behavior-macro";
