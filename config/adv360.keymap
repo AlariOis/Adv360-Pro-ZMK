@@ -121,7 +121,7 @@
         &kp TAB    &comma_tilde  &double_quotes_less_than               &sqt_greater_than     &kp P           &kp Y            &macro_colon                                                                      &macro_semi           &kp F      &kp G                  &kp C            &kp R      &kp L      &bslh_pipe
         &kp ESC        &kp A             &kp O                 &kp E     &kp U           &kp I             &macro_fslh  &macro_lctrl_mo_1     &mo 3   &none   &none     &mo 3  &macro_rctrl_mo_1  &macro_dollar           &kp D      &kp H                  &kp T            &kp N      &kp S  &macro_minus
  &macro_lshift_mo_6      &dot_ampersand             &kp Q                 &kp J     &kp K           &kp X                &none              &none  &macro_lalt_mo_1   &none   &none  &macro_ralt_mo_1      &none       &none           &kp B      &kp M                  &kp W            &kp V      &kp Z     &macro_rshift_mo_6
-    &macro_minus     &kp LEFT        &kp RIGHT            &macro_dollar  &macro_semi                            &kp SPACE          &kp ENTER  &macro_lgui_mo_1                 &macro_rgui_mo_1   &kp BSPC       &sl 5                  &macro_colon               &macro_fslh         &kp DOWN     &kp UP   &key_repeat
+    &macro_minus     &kp LEFT        &kp RIGHT            &dollar_grave  &macro_semi                            &kp SPACE          &kp ENTER  &macro_lgui_mo_1                 &macro_rgui_mo_1   &kp BSPC       &sl 5                  &macro_colon               &macro_fslh         &kp DOWN     &kp UP   &key_repeat
             >;
         };
 
@@ -147,11 +147,11 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                  &mo 4    &kp F7  &kp F8  &kp F9   &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans            &none                                                   &none    &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &none   &trans  &trans   &none   &none  &trans  &trans  &none    &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &none   &none   &trans   &none   &none  &trans  &none   &none    &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans           &trans  &trans   &trans   &trans   &trans
+ &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                  &mo 4            &kp F7  &kp F8  &kp F9   &kp F10  &kp F11  &kp F12
+ &trans  &trans  &trans  &trans  &trans  &trans            &none                                                   &none            &trans  &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &none   &trans  &trans   &none   &none  &trans  &trans  &none            &trans  &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &none   &none   &trans   &none   &none  &trans  &none   &none            &trans  &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                   &trans  &trans   &trans   &trans   &trans
             >;
         };
 
@@ -179,9 +179,9 @@
             bindings = <
  &trans      &trans  &trans  &trans               &trans       &trans            &tog 1                                                        &mo 4                &trans  &trans           &trans         &trans   &trans   &trans
  &trans      &trans  &trans  &trans               &trans       &trans            &macro_question                                               &macro_hash          &trans  &trans           &trans         &trans   &trans   &trans
- &trans      &trans  &trans  &trans               &trans       &trans            &macro_caret  &trans  &trans   &none   &none  &trans  &trans  &macro_grave_force   &trans  &trans           &trans         &trans   &trans   &trans
- &trans      &trans  &trans  &trans               &trans       &trans            &none         &none   &trans   &none   &none  &trans  &none   &none                &trans  &trans           &trans         &trans   &trans   &trans
- &caps_word  &trans  &trans  &macro_grave_force   &macro_hash                    &trans        &trans  &trans                  &trans  &trans  &trans                       &macro_question  &macro_caret   &trans   &trans   &caps_word
+ &trans      &trans  &trans  &trans               &trans       &trans            &macro_caret  &trans  &trans   &none   &none  &trans  &trans  &trans               &trans  &trans           &trans         &trans   &trans   &trans
+ &trans      &trans  &trans  &trans               &trans       &trans            &none         &none   &rans   &none   &none  &trans  &none   &none                &trans  &trans           &trans         &trans   &trans   &trans
+ &caps_word  &trans  &trans  &trans               &macro_hash                    &trans        &trans  &trans                  &trans  &trans  &trans                       &macro_question  &macro_caret   &trans   &trans   &caps_word
             >;
         };
     };
