@@ -158,7 +158,7 @@ compatible = "zmk,behavior-macro";
 wait-ms = <40>;
 tap-ms = <40>;
 bindings
-    = <&macro_tap &kp F3 &kp DQT &kp O>
+    = <&macro_tap &kp F3 &kp DQT &kp O>;
 };
 macro_a: macro_a{
 compatible = "zmk,behavior-macro";
