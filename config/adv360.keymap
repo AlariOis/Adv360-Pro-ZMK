@@ -147,11 +147,11 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                  &mo 4    &kp F7  &kp F8  &kp F9   &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans            &none                                                   &none    &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &none   &trans  &trans   &none   &none  &trans  &trans  &none    &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &none   &none   &trans   &none   &none  &trans  &none   &none    &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans           &trans  &trans   &trans   &trans   &trans
+ &kp F1  &kp F2  &kp F3    &kp F4    &kp F5   &kp F6            &tog 1                                                   &mo 4    &kp F7  &kp F8  &kp F9   &kp F10  &kp F11  &kp F12
+ &trans  &trans  &trans    &trans    &trans   &trans            &none                                                    &none    &kp PG_UP  &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &kp HOME  &kp BSPC  &kp DEL  &kp END  &none    &trans  &trans  &none    &none   &trans  &trans  &none   &trans   &kp PG_UP  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans    &trans    &trans   &trans            &none   &none   &trans   &none   &none   &trans  &none   &none    &trans  &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans    &trans    &trans                     &trans  &trans  &trans                   &trans  &trans  &trans           &trans  &trans   &trans   &trans   &trans
             >;
         };
 
@@ -171,7 +171,7 @@
      &kp AT   &kp A      &kp B     &kp C      &kp D    &kp LBKT            &trans                                                  &trans    &kp RBKT  &kp N2  &kp N3  &kp N4  &kp N5     &trans
      &macro_ctrl_f11   &kp E      &kp F    &kp N0     &kp N1  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp COLON  &kp N6  &kp N7  &kp N8  &kp N9     &trans
  &kp LSHFT  &trans  &kp COMMA    &trans     &trans    &macro_s_caron            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &macro_z_caron  &macro_o_tilde  &macro_a_dqt  &macro_o_dqt  &macro_u_dqt  &kp RSHFT
-     &trans  &trans     &trans  &kp PLUS  &kp MINUS                      &trans  &trans  &trans                  &trans  &trans  &trans            &trans  &trans  &trans  &trans     &trans
+     &trans  &trans     &trans  &kp PLUS  &kp MINUS                      &trans  &trans  &trans                  &trans  &trans  &trans            &kp HASH  &kp ASTRK  &trans  &trans     &trans
             >;
         };
 
