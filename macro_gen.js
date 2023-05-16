@@ -47,6 +47,7 @@ keys.push('GRAVE');
 keys.push('SEMI');
 keys.push('HASH');
 keys.push('MINUS');
+keys.push('PLUS');
 keys.push('UNDERSCORE');
 keys.push('COLON');
 keys.push('QUESTION');
@@ -207,6 +208,15 @@ bindings
     = <&macro_press &mo 7 &kp RSHIFT>
     , <&macro_pause_for_release>
     , <&macro_release &mo 7 &kp RSHIFT>;
+};
+macro_o_dqt: macro_o_dqt{
+label = "macro_o_dqt";
+compatible = "zmk,behavior-macro";
+#binding-cells = <0>;
+wait-ms = <40>;
+tap-ms = <40>;
+bindings
+    = <&macro_tap &kp F3 &kp DQT &kp O>
 };
 `;
 

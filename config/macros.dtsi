@@ -151,6 +151,15 @@ bindings
     , <&macro_pause_for_release>
     , <&macro_release &mo 7 &kp RSHIFT>;
 };
+macro_o_dqt: macro_o_dqt{
+label = "macro_o_dqt";
+compatible = "zmk,behavior-macro";
+#binding-cells = <0>;
+wait-ms = <40>;
+tap-ms = <40>;
+bindings
+    = <&macro_tap &kp F3 &kp DQT &kp O>
+};
 macro_a: macro_a{
 compatible = "zmk,behavior-macro";
 label = "macro_a";
@@ -750,6 +759,18 @@ compatible = "zmk,behavior-macro";
 label = "macro_shift_minus";
 #binding-cells = <0>;
 bindings = <&kp LS(MINUS)>;
+};
+macro_plus: macro_plus{
+compatible = "zmk,behavior-macro";
+label = "macro_plus";
+#binding-cells = <0>;
+bindings = <&kp PLUS>;
+};
+macro_shift_plus: macro_shift_plus{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_plus";
+#binding-cells = <0>;
+bindings = <&kp LS(PLUS)>;
 };
 macro_underscore: macro_underscore{
 compatible = "zmk,behavior-macro";

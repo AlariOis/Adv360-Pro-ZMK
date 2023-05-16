@@ -108,7 +108,7 @@
                 #binding-cells = <0>;
                 bindings = <&kp PERCENT>, <&kp AT>;
                 mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
+       };
   };
 
     keymap {
@@ -168,9 +168,9 @@
         layer_hexpad {
             bindings = <
      &trans  &trans     &trans    &trans     &trans    &trans            &trans                                                  &trans    &trans  &trans  &trans  &trans  &trans     &trans
-     &trans   &kp A      &kp B     &kp C      &kp D    &kp LBKT            &trans                                                  &trans    &kp RBKT  &kp N2  &kp N3  &kp N4  &kp N5     &trans
+     &kp AT   &kp A      &kp B     &kp C      &kp D    &kp LBKT            &trans                                                  &trans    &kp RBKT  &kp N2  &kp N3  &kp N4  &kp N5     &trans
      &macro_ctrl_f11   &kp E      &kp F    &kp N0     &kp N1  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp COLON  &kp N6  &kp N7  &kp N8  &kp N9     &trans
- &kp AT  &trans  &kp COMMA    &trans     &trans    &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp RSHFT
+ &kp LSHFT  &trans  &kp COMMA    &trans     &trans    &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &macro_o_dqt  &trans  &macro_o_dqt  &trans  &kp RSHFT
      &trans  &trans     &trans  &kp PLUS  &kp MINUS                      &trans  &trans  &trans                  &trans  &trans  &trans            &trans  &trans  &trans  &trans     &trans
             >;
         };
