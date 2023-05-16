@@ -170,7 +170,7 @@
      &trans  &trans     &trans    &trans     &trans    &trans            &trans                                                  &trans    &trans  &trans  &trans  &trans  &trans     &trans
      &kp AT   &kp A      &kp B     &kp C      &kp D    &kp LBKT            &trans                                                  &trans    &kp RBKT  &kp N2  &kp N3  &kp N4  &kp N5     &trans
      &macro_ctrl_f11   &kp E      &kp F    &kp N0     &kp N1  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp COLON  &kp N6  &kp N7  &kp N8  &kp N9     &trans
- &kp LSHFT  &trans  &kp COMMA    &trans     &trans    &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &macro_o_dqt  &macro_o_dqt_5  &macro_o_dqt_10  &trans  &kp RSHFT
+ &kp LSHFT  &trans  &kp COMMA    &trans     &trans    &macro_s_caron            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &macro_z_caron  &macro_o_tilde  &macro_a_dqt  &macro_o_dqt  &macro_u_dqt  &kp RSHFT
      &trans  &trans     &trans  &kp PLUS  &kp MINUS                      &trans  &trans  &trans                  &trans  &trans  &trans            &trans  &trans  &trans  &trans     &trans
             >;
         };
