@@ -216,7 +216,7 @@ compatible = "zmk,behavior-macro";
 wait-ms = <0>;
 tap-ms = <0>;
 bindings
-    = <&macro_tap &kp F3 &kp DQT &kp O>;
+    = <&macro_tap &kp SCROLLLOCK &kp DQT &kp O>;
 };
 macro_a_dqt: macro_a_dqt{
 label = "macro_a_dqt";
@@ -225,7 +225,7 @@ compatible = "zmk,behavior-macro";
 wait-ms = <0>;
 tap-ms = <0>;
 bindings
-    = <&macro_tap &kp F3 &kp DQT &kp A>;
+    = <&macro_tap &kp SCROLLLOCK &kp DQT &kp A>;
 };
 macro_u_dqt: macro_u_dqt{
 label = "macro_u_dqt";
@@ -234,7 +234,7 @@ compatible = "zmk,behavior-macro";
 wait-ms = <0>;
 tap-ms = <0>;
 bindings
-    = <&macro_tap &kp F3 &kp DQT &kp U>;
+    = <&macro_tap &kp SCROLLLOCK &kp DQT &kp U>;
 };
 macro_o_tilde: macro_o_tilde{
 label = "macro_o_tilde";
@@ -243,7 +243,7 @@ compatible = "zmk,behavior-macro";
 wait-ms = <0>;
 tap-ms = <0>;
 bindings
-    = <&macro_tap &kp F3 &kp TILDE &kp O>;
+    = <&macro_tap &kp SCROLLLOCK &kp TILDE &kp O>;
 };
 macro_s_caron: macro_s_caron{
 label = "macro_s_caron";
@@ -252,7 +252,7 @@ compatible = "zmk,behavior-macro";
 wait-ms = <0>;
 tap-ms = <0>;
 bindings
-    = <&macro_tap &kp F3 &kp LESS_THAN &kp S>;
+    = <&macro_tap &kp SCROLLLOCK &kp LESS_THAN &kp S>;
 };
 macro_z_caron: macro_z_caron{
 label = "macro_z_caron";
@@ -261,7 +261,7 @@ compatible = "zmk,behavior-macro";
 wait-ms = <0>;
 tap-ms = <0>;
 bindings
-    = <&macro_tap &kp F3 &kp LESS_THAN &kp Z>;
+    = <&macro_tap &kp SCROLLLOCK &kp LESS_THAN &kp Z>;
 };
 macro_degree: macro_degree{
 label = "macro_degree";
@@ -270,7 +270,7 @@ compatible = "zmk,behavior-macro";
 wait-ms = <0>;
 tap-ms = <0>;
 bindings
-    = <&macro_tap &kp F3 &kp O &kp O>;
+    = <&macro_tap &kp SCROLLLOCK &kp O &kp O>;
 };
 
 `;
