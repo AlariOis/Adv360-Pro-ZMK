@@ -151,6 +151,22 @@ bindings
     , <&macro_pause_for_release>
     , <&macro_release &mo 7 &kp RSHIFT>;
 };
+macro_lshift_sticky_mo_6: macro_lshift_sticky_mo_6{
+label = "macro_lshift_sticky_mo_6";
+compatible = "zmk,behavior-macro";
+#binding-cells = <0>;
+wait-ms = <0>;
+bindings
+    = <&macro_press &mo 6 &kp LSHIFT>;
+};
+macro_rshift_sticky_mo_7: macro_rshift_sticky_mo_7{
+label = "macro_rshift_sticky_mo_7";
+compatible = "zmk,behavior-macro";
+#binding-cells = <0>;
+wait-ms = <0>;
+bindings
+    = <&macro_press &mo 7 &sk RSHIFT>;
+};
 macro_o_dqt: macro_o_dqt{
 label = "macro_o_dqt";
 compatible = "zmk,behavior-macro";
