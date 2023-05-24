@@ -167,7 +167,7 @@
 
         layer_hexpad {
             bindings = <
-     &macro_s_caron  &trans     &trans    &trans     &trans    &trans            &trans                                                  &trans    &trans  &trans  &kp AMPERSAND  &kp trans  &trans     &macro_z_caron
+     &macro_s_caron  &trans     &trans    &trans     &trans    &trans            &trans                                                  &trans    &trans  &trans  &kp AMPERSAND  &trans  &trans     &macro_z_caron
      &kp AT   &kp A      &kp B     &kp C      &kp D    &kp LEFT_BRACE            &trans                                                  &trans    &kp RIGHT_BRACE  &kp N2  &kp N3  &kp N4  &kp N5     &kp COMMA
      &macro_ctrl_f11   &kp E      &kp F    &kp N0     &kp N1  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp COLON  &kp N6  &kp N7  &kp N8  &kp N9     &kp PERCENT
  &sk LSHFT  &trans  &kp X    &trans     &trans    &kp LBKT            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp RBKT  &macro_o_tilde  &macro_a_dqt  &macro_o_dqt  &macro_u_dqt  &sk RSHFT
