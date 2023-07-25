@@ -41,6 +41,12 @@ label = "macro_ctrl_f11";
 #binding-cells = <0>;
 bindings = <&kp LC(F11)>;
 };
+macro_ctrl_f9: macro_ctrl_f9{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_f9";
+#binding-cells = <0>;
+bindings = <&kp LC(F9)>;
+};
 macro_zmk: macro_zmk{
 label = "macro_zmk";
 compatible = "zmk,behavior-macro";
