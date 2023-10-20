@@ -43,14 +43,14 @@
                 compatible = "zmk,behavior-mod-morph";
                 label = "double_quotes_less_than";
                 #binding-cells = <0>;
-                bindings = <&kp DOUBLE_QUOTES>, <&kp LESS_THAN>;
+                bindings = <&macro_dqt>, <&kp LESS_THAN>;
                 mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     sqt_greater_than: sqt_greater_than {
                 compatible = "zmk,behavior-mod-morph";
                 label = "sqt_greater_than";
                 #binding-cells = <0>;
-                bindings = <&kp SQT>, <&kp GREATER_THAN>;
+                bindings = <&macro_sqt>, <&kp GREATER_THAN>;
                 mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     bslh_pipe: bslh_pipe {
