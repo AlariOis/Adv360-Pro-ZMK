@@ -177,7 +177,7 @@
 
         layer_left_shift {
             bindings = <
- &trans      &trans  &trans  &trans               &trans       &trans            &tog 1                                                        &mo 4                &trans  &trans           &trans         &trans   &trans   &trans
+ &trans      &trans  &trans  &trans               &trans       &trans            &tog 1                                                        &mo 4                &trans  &trans           &trans         &trans   &macro_equal_lshft   &trans
  &trans      &trans  &trans  &trans               &trans       &trans            &macro_question                                               &macro_hash          &trans  &trans           &trans         &trans   &trans   &trans
  &trans      &trans  &trans  &trans               &trans       &trans            &macro_caret  &trans  &trans   &none   &none  &trans  &trans  &macro_grave_lshft   &trans  &trans           &trans         &trans   &trans   &trans
  &caps_word  &trans  &trans  &trans               &trans       &trans            &none         &none   &trans   &none   &none  &trans  &none   &none                &trans  &trans           &trans         &trans   &trans   &caps_word
@@ -186,7 +186,7 @@
         };
         layer_right_shift {
             bindings = <
- &trans      &trans  &trans  &trans               &trans       &trans            &tog 1                                                        &mo 4                &trans  &trans           &trans         &trans   &trans   &trans
+ &trans      &trans  &trans  &trans               &trans       &trans            &tog 1                                                        &mo 4                &trans  &trans           &trans         &trans   &macro_equal_rshft   &trans
  &trans      &trans  &trans  &trans               &trans       &trans            &macro_question                                               &macro_hash          &trans  &trans           &trans         &trans   &trans   &trans
  &trans      &trans  &trans  &trans               &trans       &trans            &macro_caret  &trans  &trans   &none   &none  &trans  &trans  &macro_grave_rshft   &trans  &trans           &trans         &trans   &trans   &trans
  &caps_word  &trans  &trans  &trans               &trans       &trans            &none         &none   &trans   &none   &none  &trans  &none   &none                &trans  &trans           &trans         &trans   &trans   &caps_word

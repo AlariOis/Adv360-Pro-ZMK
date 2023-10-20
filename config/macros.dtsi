@@ -65,6 +65,18 @@ compatible = "zmk,behavior-macro";
 #binding-cells = <0>;
 bindings = <&macro_release &kp RSHFT> , <&macro_tap &kp MINUS> , <&macro_press &kp RSHFT> ;
 };
+macro_equal_lshft: macro_equal_lshft{
+label = "macro_equal_lshft";
+compatible = "zmk,behavior-macro";
+#binding-cells = <0>;
+bindings = <&macro_release &kp LSHFT> , <&macro_tap &kp EQUAL> , <&macro_press &kp LSHFT> ;
+};
+macro_equal_rshft: macro_equal_rshft{
+label = "macro_equal_rshft";
+compatible = "zmk,behavior-macro";
+#binding-cells = <0>;
+bindings = <&macro_release &kp RSHFT> , <&macro_tap &kp EQUAL> , <&macro_press &kp RSHFT> ;
+};
 macro_grave_lshft: macro_grave_lshft{
 label = "macro_grave_lshft";
 compatible = "zmk,behavior-macro";
