@@ -705,6 +705,18 @@ label = "macro_shift_sqt";
 #binding-cells = <0>;
 bindings = <&kp LS(SQT)>;
 };
+macro_dqt: macro_dqt{
+compatible = "zmk,behavior-macro";
+label = "macro_dqt";
+#binding-cells = <0>;
+bindings = <&kp DQT>;
+};
+macro_shift_dqt: macro_shift_dqt{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_dqt";
+#binding-cells = <0>;
+bindings = <&kp LS(DQT)>;
+};
 macro_lbkt: macro_lbkt{
 compatible = "zmk,behavior-macro";
 label = "macro_lbkt";

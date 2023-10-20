@@ -32,6 +32,7 @@ for (i = 0; i < 10; i++) {
 }
 
 keys.push('SQT');
+keys.push('DQT');
 keys.push('LBKT');
 keys.push('RBKT');
 keys.push('EQUAL');
