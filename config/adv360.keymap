@@ -179,7 +179,7 @@
             bindings = <
  &trans      &trans  &trans  &trans               &trans       &trans            &tog 1                                                        &mo 4                &trans  &trans           &trans         &trans   &trans   &trans
  &trans      &trans  &trans  &trans               &trans       &trans            &macro_question                                               &macro_hash          &trans  &trans           &trans         &trans   &trans   &trans
- &trans      &trans  &trans  &trans               &trans       &trans            &macro_caret  &trans  &trans   &none   &none  &trans  &trans  &macro_grave_lshft   &trans  &trans           &trans         &trans   &trans   &trans
+ &trans      &trans  &trans  &trans               &trans       &trans            &macro_caret  &trans  &trans   &none   &none  &trans  &trans  &macro_grave_lshft   &trans  &trans           &trans         &trans   &trans   &macro_minus_lshft
  &caps_word  &trans  &trans  &trans               &trans       &trans            &none         &none   &trans   &none   &none  &trans  &none   &none                &trans  &trans           &trans         &trans   &trans   &caps_word
  &trans      &trans  &trans  &macro_grave_lshft   &macro_hash                    &trans        &trans  &trans                  &trans  &trans  &trans                       &macro_question  &macro_caret   &trans   &trans   &trans
             >;
@@ -188,7 +188,7 @@
             bindings = <
  &trans      &trans  &trans  &trans               &trans       &trans            &tog 1                                                        &mo 4                &trans  &trans           &trans         &trans   &trans   &trans
  &trans      &trans  &trans  &trans               &trans       &trans            &macro_question                                               &macro_hash          &trans  &trans           &trans         &trans   &trans   &trans
- &trans      &trans  &trans  &trans               &trans       &trans            &macro_caret  &trans  &trans   &none   &none  &trans  &trans  &macro_grave_rshft   &trans  &trans           &trans         &trans   &trans   &trans
+ &trans      &trans  &trans  &trans               &trans       &trans            &macro_caret  &trans  &trans   &none   &none  &trans  &trans  &macro_grave_rshft   &trans  &trans           &trans         &trans   &trans   &macro_minus_rshft
  &caps_word  &trans  &trans  &trans               &trans       &trans            &none         &none   &trans   &none   &none  &trans  &none   &none                &trans  &trans           &trans         &trans   &trans   &caps_word
  &trans      &trans  &trans  &macro_grave_rshft   &macro_hash                    &trans        &trans  &trans                  &trans  &trans  &trans                       &macro_question  &macro_caret   &trans   &trans   &trans
             >;
