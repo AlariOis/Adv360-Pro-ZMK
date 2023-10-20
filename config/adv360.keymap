@@ -117,7 +117,7 @@
 
         default_layer {
             bindings = <
-&hash_tilde         &percent_at       &kp LEFT_BRACE            &kp LEFT_PARENTHESIS  &macro_plus     &key_repeat  &to 1                                                                                                                               &mo 4           &key_repeat        &kp ASTRK      &kp RIGHT_PARENTHESIS  &macro_equal      &kp RIGHT_BRACE  &kp EXCL
+&macro_underscore         &percent_at       &kp LEFT_BRACE            &kp LEFT_PARENTHESIS  &macro_plus     &key_repeat  &to 1                                                                                                                               &mo 4           &key_repeat        &kp ASTRK      &kp RIGHT_PARENTHESIS    &kp RIGHT_BRACE     &macro_equal &macro_underscore
 &kp TAB             &comma_tilde      &double_quotes_less_than  &sqt_greater_than     &kp P           &kp Y              &macro_colon                                                                                                                        &macro_semi     &kp F                    &kp G          &kp C                  &kp R             &kp L            &bslh_pipe
 &kp ESC             &kp A             &kp O                     &kp E                 &kp U           &kp I              &macro_fslh                 &macro_lctrl_mo_1  &macro_lgui_mo_1                &none &none        &macro_lgui_mo_1              &macro_rctrl_mo_1                 &macro_dollar   &kp D                    &kp H          &kp T                  &kp N             &kp S            &macro_minus
 &macro_lshift_mo_6  &dot_ampersand    &kp Q                     &kp J                 &kp K           &kp X              &none &none                                    &sl 3              &none &none  &sl 3   &none &none                                       &kp B                    &kp M          &kp W                  &kp V             &kp Z            &macro_rshift_mo_7
@@ -168,7 +168,7 @@
         layer_hexpad {
             bindings = <
      &macro_s_caron  &trans     &trans    &trans     &trans    &trans            &trans                                                  &trans    &trans  &trans  &kp AMPERSAND  &trans  &trans     &macro_z_caron
-     &kp AT   &kp A      &kp B     &kp C      &kp D    &kp LEFT_BRACE            &trans                                                  &trans    &kp RIGHT_BRACE  &kp N2  &kp N3  &kp N4  &kp N5     &kp COMMA
+     &kp AT   &kp A      &kp B     &kp C      &kp D    &kp EXCL            &trans                                                  &trans    &kp HASH  &kp N2  &kp N3  &kp N4  &kp N5     &kp COMMA
      &macro_ctrl_f9   &kp E      &kp F    &kp N0     &kp N1  &kp LBKT            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RBKT  &kp N6  &kp N7  &kp N8  &kp N9     &kp PERCENT
  &kp LSHFT  &trans  &kp X    &trans     &trans    &kp I            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp COLON  &macro_o_tilde  &macro_a_dqt  &macro_o_dqt  &macro_u_dqt  &kp RSHFT
      &trans  &trans     &trans  &kp PLUS  &kp MINUS                      &trans  &trans  &trans                  &trans  &trans  &trans            &kp ASTRK &kp HASH    &trans  &trans     &trans
