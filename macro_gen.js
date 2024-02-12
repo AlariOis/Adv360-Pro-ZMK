@@ -39,6 +39,7 @@ keys.push('EQUAL');
 keys.push('COMMA');
 keys.push('DOT');
 keys.push('BSLH');
+keys.push('PIPE');
 keys.push('FSLH');
 
 keys.push('SEMI');
