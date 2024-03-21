@@ -1,62 +1,62 @@
-const fs = require('fs');
+const fs = require("fs");
 
-let res = '';
+let res = "";
 
 function add_macro(name, binding) {
-    res += `macro_${name}: macro_${name}{\n`;
-    res += `compatible = "zmk,behavior-macro";\n`;
-    res += `label = "macro_${name}";\n`;
-    res += `#binding-cells = <0>;\n`;
-    res += `bindings = <${binding}>;\n`;
-    res += `};\n`;
-};
+  res += `macro_${name}: macro_${name}{\n`;
+  res += `compatible = "zmk,behavior-macro";\n`;
+  res += `label = "macro_${name}";\n`;
+  res += `#binding-cells = <0>;\n`;
+  res += `bindings = <${binding}>;\n`;
+  res += `};\n`;
+}
 
 function add_kp_macro(key) {
-    add_macro(key.toLowerCase(), `&kp ${key}`);
+  add_macro(key.toLowerCase(), `&kp ${key}`);
 }
 
 function add_shift_macro(key) {
-    add_macro(`shift_${key.toLowerCase()}`, `&kp LS(${key})`);
+  add_macro(`shift_${key.toLowerCase()}`, `&kp LS(${key})`);
 }
-
 
 const keys = [];
 
 // Loop through letters
 for (i = 65; i <= 90; i++) {
-    keys.push(String.fromCharCode(i));
+  keys.push(String.fromCharCode(i));
 }
 
 for (i = 0; i < 10; i++) {
-    keys.push('N' + i);
+  keys.push("N" + i);
 }
 
-keys.push('SQT');
-keys.push('DQT');
-keys.push('LBKT');
-keys.push('RBKT');
-keys.push('EQUAL');
-keys.push('COMMA');
-keys.push('DOT');
-keys.push('BSLH');
-keys.push('PIPE');
-keys.push('FSLH');
+keys.push("SQT");
+keys.push("DQT");
+keys.push("LBKT");
+keys.push("RBKT");
+keys.push("EQUAL");
+keys.push("COMMA");
+keys.push("DOT");
+keys.push("AMPERSAND");
+keys.push("BSLH");
+keys.push("PIPE");
+keys.push("FSLH");
 
-keys.push('SEMI');
+keys.push("SEMI");
 
-keys.push('DOLLAR');
-keys.push('GRAVE');
-keys.push('SEMI');
-keys.push('HASH');
-keys.push('MINUS');
-keys.push('PLUS');
-keys.push('UNDERSCORE');
-keys.push('COLON');
-keys.push('QUESTION');
-keys.push('LESS_THAN');
-keys.push('GREATER_THAN');
-keys.push('FSLH');
-keys.push('CARET');
+keys.push("DOLLAR");
+keys.push("GRAVE");
+keys.push("SEMI");
+keys.push("HASH");
+keys.push("MINUS");
+keys.push("PLUS");
+keys.push("UNDERSCORE");
+keys.push("COLON");
+keys.push("QUESTION");
+keys.push("LESS_THAN");
+keys.push("GREATER_THAN");
+keys.push("FSLH");
+keys.push("CARET");
 
 res += `
 macro_quotes: macro_quotes{
@@ -323,10 +323,9 @@ bindings
 
 `;
 
-keys.forEach(key => {
-    add_kp_macro(key);
-    add_shift_macro(key);
+keys.forEach((key) => {
+  add_kp_macro(key);
+  add_shift_macro(key);
 });
 
-
-fs.writeFileSync('config/macros.dtsi', res);
+fs.writeFileSync("config/macros.dtsi", res);

@@ -777,6 +777,18 @@ label = "macro_shift_dot";
 #binding-cells = <0>;
 bindings = <&kp LS(DOT)>;
 };
+macro_ampersand: macro_ampersand{
+compatible = "zmk,behavior-macro";
+label = "macro_ampersand";
+#binding-cells = <0>;
+bindings = <&kp AMPERSAND>;
+};
+macro_shift_ampersand: macro_shift_ampersand{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_ampersand";
+#binding-cells = <0>;
+bindings = <&kp LS(AMPERSAND)>;
+};
 macro_bslh: macro_bslh{
 compatible = "zmk,behavior-macro";
 label = "macro_bslh";
