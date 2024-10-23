@@ -95,6 +95,12 @@ label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
+macro_unicode: macro_unicode{
+compatible = "zmk,behavior-macro";
+label = "macro_unicode";
+#binding-cells = <0>;
+bindings = <&kp LC(LS(U))>;
+};
 macro_ctrl_f11: macro_ctrl_f11{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_f11";
